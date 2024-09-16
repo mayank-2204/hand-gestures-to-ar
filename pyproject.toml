@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "Mixed Reality Hand Marker"
+version = "0.0.1"
+description = ""
+authors = ["mbhansali@atheerair.com"]
+readme = ""
+
+[tool.poetry.dependencies]
+python = ">=3.10.10,<3.11.0"
+mediapipe = "0.10.5"
+opencv-python = "4.9.0.80"
+numpy = "1.23.5"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
